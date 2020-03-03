@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #box{
+            
+        }
+        .left{
+            float: left;
+            width: 100px;
+            height: 100px;
+            background-color: aqua;
+        }
+        .right{
+            float: right;
+            width: 100px;
+            height: 100px;
+            background-color: aqua;
+        }
+        .center{
+            width: 100%;
+            height: 200px;
+            background-color: black;
+        }
+    </style>
+</head>
+<body>
+    <div id="box">
+        <div class="left"></div>
+    
+    <div class="right"></div>
+    <div class="center"></div>
+    </div>
+</body>
+<script>
+  for(var i=0;i<5;i++){
+      setTimeout('console.log(i)',1000)
+  }
+</script>
+</html>
